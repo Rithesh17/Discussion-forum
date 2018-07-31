@@ -1,2 +1,0 @@
-class Discuss < ApplicationRecord
-end
