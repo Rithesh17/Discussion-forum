@@ -1,3 +1,3 @@
 # Discussion Forum
 
-Made using **Ruby on Rails**.
+Made using **Ruby on Rails**

@@ -1,7 +1,10 @@
 Rails.application.routes.draw do
-  resources :discusses
-  root 'discusses#index'
+  resources :channels
+  resources :discussions do
+    resources :replies
+  end
 
-  devise_for :users, controllers: {registrations: 'registrations'}
+  root 'discussions#index'
 
+  devise_for :users, controllers: { registrations: 'registrations' }
 end
