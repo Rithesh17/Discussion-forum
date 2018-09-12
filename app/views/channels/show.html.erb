@@ -4,8 +4,8 @@
   </div>
   <div class="level-right">
   <% if has_role?(:admin) %>
-    <%= link_to 'Edit Channel', edit_channel_path(@channel), class:"button" %>
-    <%= link_to 'Delete', channel_path(@channel), method: :delete, data: { confirm: "Delete Channel?" }, class:'button' %>
+    <%= link_to 'Edit Category', edit_channel_path(@channel), class:"button" %>
+    <%= link_to 'Delete', channel_path(@channel), method: :delete, data: { confirm: "Delete Category?" }, class:'button' %>
   <% end %>
   </div>
 </div>
