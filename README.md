@@ -34,4 +34,4 @@ To give administrative rights to the user:
     * Find the user which should be made the admin and make note of his "User_id"
     * Get the handler of the user concerned: ```@user = User.find(*User_id*)```
     * Add the admin role: ```@user.add_role "admin"```
-    * Save the entire transaction happening: ```@user.save```
+    * Save the entire transaction: ```@user.save```
